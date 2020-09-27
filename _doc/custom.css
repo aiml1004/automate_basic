@@ -1,0 +1,49 @@
+/*
+Placeholder for custom user CSS
+
+mainly to be overridden in profile/static/custom/custom.css
+
+This will always be an empty file
+*/
+
+/*
+    Name:       Github Flavored
+    Author:     aahoo
+    
+    Based on previous works of:
+    CodeMirror template adapted for IPython Notebook by Nikhil Sonnad (https://github.com/nsonnad/base16-ipython-notebook)
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+    
+    .CodeMirror pre {font-family: Consolas; font-size: 14pt; line-height: 140%;}
+    .CodeMirror pre {font-family: D2Coding; font-size: 20pt; line-height: 140%;}
+    .CodeMirror pre {font-family: Consolas; font-size: 14pt; line-height: 140%;}
+    
+*/
+/* Change global font size (for code) */
+.CodeMirror {
+    font-family: Consolas;    
+    font-size: 14px !important;
+    line-height: 140%    
+}
+
+/* Cell container width as a percentage instead of a fixed size */
+.container { width:100% !important; }
+
+/* output */
+div.output pre{
+    font-family: Consolas;
+    font-size: 12pt;
+    line-height: 120%;
+}  
+
+/* comment */
+.cm-s-ipython span.cm-comment{
+    font-family: Consolas;   
+    font-size: 14px;    
+    color: #007979;
+    line-height: 130%;
+    }
+
+
+
